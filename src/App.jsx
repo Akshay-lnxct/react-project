@@ -16,9 +16,6 @@ function App() {
         <Router>
           <Routes>
             <Route path="/home" element={<Home />} />
-            {/* <Route exact path="/" element={<Home />} /> */}
-            {/* <Route exact path="*" element={<Home />} /> */}
-          
           </Routes>
         </Router>
       ) : (
@@ -27,7 +24,6 @@ function App() {
             <Route path="/" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
-            {/* <Route exact path="*" element={<Login />} /> */}
           </Routes>
         </Router>
       )}
